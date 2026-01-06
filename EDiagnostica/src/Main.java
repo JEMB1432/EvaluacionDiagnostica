@@ -28,7 +28,7 @@ public class Main {
                 number = scanner.nextInt();
                 exit = true;
             }catch (Exception e){
-                System.out.println("Ingrese solo numeros");
+                System.out.println("Ingrese solo numeros enteros");
                 scanner.nextLine();
             }
         }while (!exit);
